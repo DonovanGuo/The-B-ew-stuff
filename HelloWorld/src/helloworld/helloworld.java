@@ -22,7 +22,7 @@ public class helloworld extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 
-		List<String> something = CSVReaderInJava.readFromCSV("idk.txt");
+		List<String> something = CSVReaderInJava.readFromCSV("Igotthisfromawebsite.txt");
 		int elements = something.size();
 		
 		primaryStage.setTitle("NOT Hello World!");
