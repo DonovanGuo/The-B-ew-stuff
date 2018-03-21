@@ -25,7 +25,7 @@ public class helloworld extends Application {
 		List<String> something = CSVReaderInJava.readFromCSV("Igotthisfromawebsite.txt");
 		int elements = something.size();
 		
-		primaryStage.setTitle("NOT Hello World!");
+		primaryStage.setTitle("101 EASY WAYS TO SAY NO!");
 		Button btn = new Button();
 		Label label = new Label("Times clicked:" + clicks);
 		btn.setText(Integer.toString(i));
@@ -56,7 +56,7 @@ public class helloworld extends Application {
 		root.setAlignment(label, Pos.TOP_CENTER);
 		root.getChildren().addAll(btn, label);
 		
-		primaryStage.setScene(new Scene(root, 300, 300));
+		primaryStage.setScene(new Scene(root, 350, 300));
 		primaryStage.show();
 	}
 }
