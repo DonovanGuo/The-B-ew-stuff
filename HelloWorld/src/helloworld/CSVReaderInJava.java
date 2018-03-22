@@ -12,7 +12,7 @@ public class CSVReaderInJava
 {
 	public static void main(String... args)
 	{
-		List<String> csv = readFromCSV("idk.txt");
+		List<String> csv = readFromCSV("assadas.txt");
 		
 		for (String s : csv)
 		{
